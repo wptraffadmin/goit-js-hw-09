@@ -1,0 +1,58 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 80%;
+    max-width: 408px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form div {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.feedback-form input {
+    height: 24px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0.1px solid #2e2f42;
+}
+
+.feedback-form textarea {
+    height: 80px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0.1px solid #2e2f42;
+}
+
+.feedback-form button {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    cursor: pointer;
+    background: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
